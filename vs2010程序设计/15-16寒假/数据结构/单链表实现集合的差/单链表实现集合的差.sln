@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表实现集合的差", "单链表实现集合的差\单链表实现集合的差.vcxproj", "{FC063E11-8B62-4870-AB56-44387CBE747A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC063E11-8B62-4870-AB56-44387CBE747A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC063E11-8B62-4870-AB56-44387CBE747A}.Debug|Win32.Build.0 = Debug|Win32
+		{FC063E11-8B62-4870-AB56-44387CBE747A}.Release|Win32.ActiveCfg = Release|Win32
+		{FC063E11-8B62-4870-AB56-44387CBE747A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

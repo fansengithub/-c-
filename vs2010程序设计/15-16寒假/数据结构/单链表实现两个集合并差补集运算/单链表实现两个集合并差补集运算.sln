@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表实现两个集合并差补集运算", "单链表实现两个集合并差补集运算\单链表实现两个集合并差补集运算.vcxproj", "{229AA1EC-DC1D-4494-ADDC-86C6F84D7ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{229AA1EC-DC1D-4494-ADDC-86C6F84D7ACC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{229AA1EC-DC1D-4494-ADDC-86C6F84D7ACC}.Debug|Win32.Build.0 = Debug|Win32
+		{229AA1EC-DC1D-4494-ADDC-86C6F84D7ACC}.Release|Win32.ActiveCfg = Release|Win32
+		{229AA1EC-DC1D-4494-ADDC-86C6F84D7ACC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

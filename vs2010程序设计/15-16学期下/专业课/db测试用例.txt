@@ -1,0 +1,51 @@
+create table stu (int Id,char Name);
+create talbe teacher (int Id,char Name);
+insert into stu values (123,li);
+insert into stu values (789,guo);
+alter table stu add int Age;
+***********************************************
+数据输入：
+create table s (int s_Id , char s_Name);
+create table sc (int s_Id, int c_Id);
+create table c (int c_Id, char c_Name);
+insert into s values (123,li);
+insert into sc values (123,1);
+insert into c values (1,Math);
+-------
+insert into s values (124,wang);
+insert into sc values (124,2);
+insert into c values (2,English);
+
+---------
+insert into s values (125,Guo);
+insert into sc values (125,2);
+
+
+操作命令：
+4------索引的创建及删除
+create index s_Id on s;
+drop index s_Id on s;
+
+
+(1) 全关系选择操作  select * from s;  select * from sc;  select * from c;
+(2) 单关系的投影操作  select s_Name from s;  select c_Name from c; select c_Id from s;
+(3) 单关系的选择操作  select * from s where s_Id > 123;  select * from s where s_Id = 124;
+(4) 单关系的选择和投影操作  select s_Name from s where s_Id > 123; 
+                            select s_Name from s where s_Id < 125;
+
+(5）双表连接  select * from s , sc where s.s_Id = sc.s_Id;
+              select * from sc , c where sc.c_Id = c.c_Id;
+6)双表选择连接 select * from s , sc where s_Id > 123 and s.s_Id = sc.s_Id;
+               select * from sc , c where s_Id > 123 and sc.c_Id = c.c_Id;
+(7.1) 双表投影和连接 select s_Id from s, sc where s.s_Id = sc.s_Id;
+                     select c_Id from sc, c where sc.c_Id = c.c_Id;
+(7.2) 多表的选择，投影和连接 (已有 s sc c 表) select s_Name from s where c.c_Name = Math and c.c_Id = sc.c_Id and sc.s_Id = s.s_Id;
+select s_Name from s where c.c_Name = English and c.c_Id = sc.c_Id and sc.s_Id = s.s_Id;
+(8) 利用索引完成选择操作 select * from s where s_Id > 123 by insert s_Id;
+(9) 利用索引完成连接操作 select * from s sc 
+----------------
+insert into s values (130,Guo1);
+insert into s values (131,Guo2);
+insert into s values (132,Guo3);
+insert into s values (99,Guo4);
+insert into s values (36,Guo5);

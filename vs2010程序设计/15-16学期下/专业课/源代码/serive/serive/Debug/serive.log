@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/4/5 9:19:43。
+     1>项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\serive\serive.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\serive.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\Debug\serive.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\serive.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\Debug\serive.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\Debug\serive.lib" /MACHINE:X86 Debug\serive.exe.embed.manifest.res
+         Debug\serive.obj
+         Debug\stdafx.obj
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__closesocket@4，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__recv@16，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__send@16，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__inet_ntoa@4，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__accept@12，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__listen@8，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__bind@12，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__htons@4，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__htonl@4，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__socket@12，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__WSACleanup@0，该符号在函数 _wmain 中被引用
+     1>serive.obj : error LNK2019: 无法解析的外部符号 __imp__WSAStartup@8，该符号在函数 _wmain 中被引用
+     1>F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\Debug\serive.exe : fatal error LNK1120: 12 个无法解析的外部命令
+     1>已完成生成项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\serive\serive\serive.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表删除相同元素", "单链表删除相同元素\单链表删除相同元素.vcxproj", "{FD76C384-0397-4E0C-A1B8-80AF32F8FE69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD76C384-0397-4E0C-A1B8-80AF32F8FE69}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD76C384-0397-4E0C-A1B8-80AF32F8FE69}.Debug|Win32.Build.0 = Debug|Win32
+		{FD76C384-0397-4E0C-A1B8-80AF32F8FE69}.Release|Win32.ActiveCfg = Release|Win32
+		{FD76C384-0397-4E0C-A1B8-80AF32F8FE69}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

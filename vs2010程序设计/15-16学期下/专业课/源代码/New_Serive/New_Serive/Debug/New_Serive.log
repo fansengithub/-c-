@@ -1,0 +1,61 @@
+﻿生成启动时间为 2016/5/5 15:02:08。
+     1>项目“F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\New_Serive\New_Serive.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\New_Serive.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\New_Serive.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt New_Serive.cpp
+         New_Serive.cpp
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(36): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(48): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(224): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(233): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(268): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(269): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(271): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\new_serive\new_serive\new_serive.cpp(143): warning C4101: “revData”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\Debug\New_Serive.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\New_Serive.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\Debug\New_Serive.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\Debug\New_Serive.lib" /MACHINE:X86 Debug\New_Serive.exe.embed.manifest.res
+         Debug\New_Serive.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\New_Serive.exe.embed.manifest" /manifest Debug\New_Serive.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         New_Serive.vcxproj -> F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\Debug\New_Serive.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\New_Serive.unsuccessfulbuild”。
+         正在对“Debug\New_Serive.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\New_Serive\New_Serive\New_Serive.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.44

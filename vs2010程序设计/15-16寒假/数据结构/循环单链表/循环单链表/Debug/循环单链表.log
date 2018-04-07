@@ -1,0 +1,19 @@
+﻿生成启动时间为 2017/3/1 20:38:12。
+     1>项目“F:\编程\vs2010程序设计\15-16寒假\数据结构\循环单链表\循环单链表\循环单链表.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\循环单链表.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\new\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\编程\vs2010程序设计\15-16寒假\数据结构\循环单链表\Debug\循环单链表.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\循环单链表.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\编程\vs2010程序设计\15-16寒假\数据结构\循环单链表\Debug\循环单链表.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\编程\vs2010程序设计\15-16寒假\数据结构\循环单链表\Debug\循环单链表.lib" /MACHINE:X86 "Debug\循环单链表.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         "Debug\循环单链表.obj"
+     1>LINK : fatal error LNK1123: 转换到 COFF 期间失败: 文件无效或损坏
+     1>已完成生成项目“F:\编程\vs2010程序设计\15-16寒假\数据结构\循环单链表\循环单链表\循环单链表.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.31

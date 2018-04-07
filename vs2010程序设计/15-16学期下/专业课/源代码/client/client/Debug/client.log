@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/4/5 9:28:10。
+     1>项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\client\client\client.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\vs2010程序设计\15-16学期下\专业课\源代码\client\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\client.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\client.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\client\client\client.cpp(63): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdio.h(277) : 参见“gets”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\client.exe.embed.manifest.res" Debug\client_manifest.rc 
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010程序设计\15-16学期下\专业课\源代码\client\Debug\client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\client\Debug\client.lib" /MACHINE:X86 Debug\client.exe.embed.manifest.res
+         Debug\client.obj
+         Debug\stdafx.obj
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__closesocket@4，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__send@16，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__recv@16，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__connect@12，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__htons@4，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__inet_addr@4，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__socket@12，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__WSACleanup@0，该符号在函数 _wmain 中被引用
+     1>client.obj : error LNK2019: 无法解析的外部符号 __imp__WSAStartup@8，该符号在函数 _wmain 中被引用
+     1>F:\vs2010程序设计\15-16学期下\专业课\源代码\client\Debug\client.exe : fatal error LNK1120: 9 个无法解析的外部命令
+     1>已完成生成项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\client\client\client.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.90

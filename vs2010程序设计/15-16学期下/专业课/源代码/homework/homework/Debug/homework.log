@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/4/22 18:35:19。
+     1>项目“F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\homework.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\homework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\homework.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt homework.cpp
+         homework.cpp
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.cpp(24): warning C4101: “p”: 未引用的局部变量
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.cpp(39): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.cpp(95): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.cpp(98): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(105) : 参见“strcpy”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\homework.exe.embed.manifest.res" Debug\homework_manifest.rc 
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\Debug\homework.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\homework.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\Debug\homework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\Debug\homework.lib" /MACHINE:X86 Debug\homework.exe.embed.manifest.res
+         Debug\homework.obj
+         Debug\stdafx.obj
+         LINK : 缺少程序数据库 F:\vs2010程序设计\15-16学期下\专业课\源代码\homework\Debug\homework.pdb；正在执行完全链接
+     1>LINK : fatal error LNK1201: 写入程序数据库“F:\vs2010程序设计\15-16学期下\专业课\源代码\homework\Debug\homework.pdb”时出错；请检查是否是磁盘空间不足、路径无效或权限不够
+     1>已完成生成项目“F:\编程\vs2010程序设计\15-16学期下\专业课\源代码\homework\homework\homework.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.51

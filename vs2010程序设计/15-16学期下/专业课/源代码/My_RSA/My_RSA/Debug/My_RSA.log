@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/4/10 20:40:18。
+     1>项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\My_RSA\My_RSA.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\My_RSA.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\My_RSA.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\My_RSA.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt My_RSA.cpp
+         My_RSA.cpp
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(17): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(18): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(250) : 参见“strrev”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(96): warning C4101: “e”: 未引用的局部变量
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(148): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(166): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(56): warning C4715: “Euclid”: 不是所有的控件路径都返回值
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\my_rsa\my_rsa\my_rsa.cpp(105): warning C4715: “Creat_Key”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\My_RSA.exe.embed.manifest.res" Debug\My_RSA_manifest.rc 
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\My_RSA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.lib" /MACHINE:X86 Debug\My_RSA.exe.embed.manifest.res
+         Debug\My_RSA.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\My_RSA.exe.embed.manifest" /manifest Debug\My_RSA.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\My_RSA.exe.embed.manifest.res" Debug\My_RSA_manifest.rc 
+       LinkEmbedManifest:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\My_RSA.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.lib" /MACHINE:X86 Debug\My_RSA.exe.embed.manifest.res
+         Debug\My_RSA.obj
+         Debug\stdafx.obj
+         My_RSA.vcxproj -> F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\Debug\My_RSA.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\My_RSA.unsuccessfulbuild”。
+         正在对“Debug\My_RSA.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\My_RSA\My_RSA\My_RSA.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.83

@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/4/6 16:53:46。
+     1>项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\RSA数字签名\RSA数字签名.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\RSA数字签名.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\vs2010\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RSA数字签名.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "RSA数字签名.cpp"
+         RSA数字签名.cpp
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(19): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(20): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 d:\vs2010\vs2010\vc\include\string.h(250) : 参见“strrev”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(99): warning C4101: “e”: 未引用的局部变量
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(151): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(169): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vs2010\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(58): warning C4715: “Euclid”: 不是所有的控件路径都返回值
+     1>f:\vs2010程序设计\15-16学期下\专业课\源代码\rsa数字签名\rsa数字签名\rsa数字签名.cpp(108): warning C4715: “Creat_Key”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs2010\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\Debug\RSA数字签名.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RSA数字签名.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\Debug\RSA数字签名.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\Debug\RSA数字签名.lib" /MACHINE:X86 "Debug\RSA数字签名.exe.embed.manifest.res"
+         "Debug\RSA数字签名.obj"
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RSA数字签名.exe.embed.manifest" /manifest "Debug\RSA数字签名.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         RSA数字签名.vcxproj -> F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\Debug\RSA数字签名.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\RSA数字签名.unsuccessfulbuild”。
+         正在对“Debug\RSA数字签名.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\vs2010程序设计\15-16学期下\专业课\源代码\RSA数字签名\RSA数字签名\RSA数字签名.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.75
